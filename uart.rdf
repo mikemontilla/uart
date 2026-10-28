@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="2026.1.0.37.0" title="uart" device="LIFCL-40-8BG256I" performance_grade="8_High-Performance_1.0V" family_int="je5d00" device_int="je5d30" package_int="CABGA256" operation_int="IND" speed_int="11" default_implementation="uart_implementation">
+    <Options/>
+    <Implementation title="uart_implementation" dir="uart_implementation" description="uart_implementation" synthesis="synplify" default_strategy="Strategy1">
+        <Options/>
+    </Implementation>
+    <Strategy name="Strategy1" file="uart1.sty"/>
+</RadiantProject>
