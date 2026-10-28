@@ -12,6 +12,7 @@ This project implements the well-known UART communication protocol on an FPGA, b
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Board                   | TD112 (developed by Tachysséma Développement), an FPGA module mounted on a carrier board with peripherals and Pmod connectors |
 | FPGA                    | Lattice Semiconductor CrossLink-NX LIFCL-40-8BG256I                                                                  |
+| Toolchain               | Lattice Radiant 2026.1                                                                                               |
 | Synthesis               | Synopsys Synplify Pro                                                                                                |
 | Language                | VHDL-2008                                                                                                            |
 | Programmer              | Radiant Programmer                                                                                                   |
