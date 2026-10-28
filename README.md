@@ -31,3 +31,7 @@ This project implements the well-known UART communication protocol on an FPGA, b
 ## Notes
 
 As in any project, big or small, development is a chance to learn new concepts or revisit old ones. The [NOTES.md](NOTES.md) file records some of the lessons learned along the way for future reference.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
