@@ -16,6 +16,7 @@ This project implements the well-known UART communication protocol on an FPGA, b
 | Synthesis               | Synopsys Synplify Pro                                                                                                |
 | Language                | VHDL-2008                                                                                                            |
 | Programmer              | Radiant Programmer                                                                                                   |
+| Timing diagrams         | WaveDrom (web)                                                                                                       |
 | Diagrams                | draw.io                                                                                                              |
 | Serial terminal         | picocom                                                                                                              |
 | Operating system        | Ubuntu 22.04                                                                                                         |
@@ -27,6 +28,10 @@ This project implements the well-known UART communication protocol on an FPGA, b
 - Send the ASCII character `U` (`0x55` = `0b01010101`) once per second.
 - The character must appear in the picocom terminal every second.
 - The character is sent continuously from system startup (no button press required).
+
+### Implementation
+
+The design of this stage is described in [docs/stage_1.md](docs/stage_1.md).
 
 ## Notes
 
