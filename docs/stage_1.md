@@ -32,6 +32,6 @@ The following timing diagram shows the expected behavior of the signals:
 
 ## Block Diagram
 
-With the timing diagram in place, a block diagram can now be drawn showing the main connections and the control signals coming out of the state machine. The state machine is responsible for enabling the prescaler, which drives both the counter and the shift register; for generating the start and stop signals; and for selecting, through the MUX, what appears on `tx`: either the data from the shift register or the `start_stop` control signal. At the end of each cycle, the state machine resets all the subsystems so that a new cycle can start cleanly.
+With the timing diagram in place, a block diagram can now be drawn showing the main connections and the control signals coming out of the state machine. The state machine is responsible for enabling the prescaler, which drives both the counter and the shift register; for generating the start and stop signals; and for selecting, through the MUX, what appears on `tx`: either the data from the shift register or the `start_stop_n` control signal. At the end of each cycle, the state machine resets all the subsystems so that a new cycle can start cleanly.
 
 ![Internal block diagram](uart.png)
